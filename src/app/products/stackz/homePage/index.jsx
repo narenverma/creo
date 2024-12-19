@@ -94,14 +94,13 @@ const [isMobile,setIsMobile] = React.useState(false);
 
                 <LibraryItemsTabsSection>
                     <div className="container">
-                    {
-                        isMobile &&
-                    <MobileTabFilter 
+                    
+                    <MobileTabFilter hidden={isMobile ? false : true}
                     onClick={() => setOpenTabsFilter(!openTabsFilter)}
                     >
                     Select an option <Image src={require("../assets/images/global-images/chevron-down-arrow-icon.svg").default} alt='Arrow' style={{rotate: openTabsFilter ? "180deg" : "0deg"}}></Image>
                     </MobileTabFilter>
-                    }
+                    
 
                     {
                         openTabsFilter || !isMobile ?

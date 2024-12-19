@@ -133,7 +133,7 @@ outline: 1px solid var(--theme-soft-gray);
 `;
 
 export const MobileTabFilter = styled.button`
-background-color:var(--theme-base-white);
+background-color:var(--theme-white);
     padding: 2rem;
     border: 0;
     font-size: 1rem;
@@ -141,7 +141,7 @@ background-color:var(--theme-base-white);
     letter-spacing: -0.01rem;
     width: 100%;
     outline: 1px solid var(--theme-soft-gray);
-    margin-top: 1px;
+    margin-top: 1px; 
     text-align: left;
     display: flex;
     justify-content: space-between;

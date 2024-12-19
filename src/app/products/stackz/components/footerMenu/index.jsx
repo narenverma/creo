@@ -39,10 +39,11 @@ export default function FooterMenu() {
                         <li><Link href="https://in.linkedin.com/company/wearehybreed" target="_blank">Linkedin</Link></li>
                         <li><Link href="https://dribbble.com/hybreed" target="_blank">Dribbble</Link></li>
                     </SocialCopyrightsWrap>
-                    {
-                        isMobile &&
-                    <div className="copyrights-col"><p className='theme-text-neutral-gray'>© 2024 <Link href="https://weare.hybreed.co/" target="_blank" className='theme-text-neutral-gray text-decoration-underline'>Hybreed.co</Link></p></div>
-                    }
+                     
+                    <div className="copyrights-col" hidden={isMobile ? false : true}>
+                    <p className='theme-text-neutral-gray'>© 2024 <Link href="https://weare.hybreed.co/" target="_blank" className='theme-text-neutral-gray text-decoration-underline'>Hybreed.co</Link></p>
+                    </div>
+                     
                 </FooterWrap>
             </div>
         </FooterSection>
