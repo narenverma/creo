@@ -31,9 +31,9 @@ export default function HeaderMenu() {
       <MainMenuWrap className={Nohemi.variable}>
         <div className="container">
           <MenuItems> 
-          {isMobile &&
+           
 
-            <MobileMenu >
+            <MobileMenu hidden={isMobile ? false : true} >
               <Link href="/products/stackz">
                 <Image src={require("../../assets/images/global-images/stackz-logo.svg").default} alt="stackz-logo" ></Image>
               </Link>
@@ -47,7 +47,7 @@ export default function HeaderMenu() {
               }
               </MenuToggleBtn>
             </MobileMenu> 
-          }
+           
           
             <ul hidden={isMenuOpen || !isMobile  ? false : true}>
               <li><Link href="/">Pricing</Link></li>
