@@ -6,7 +6,7 @@ import { GlobalStyle, Nohemi } from './assets/css/globalStyle';
 import { GlobalColorsStyle } from './assets/css/theme-color';
 import HeaderMenu from './components/headerMenu';
 import FooterMenu from './components/footerMenu';
-import StackzHome from './homePage';
+import StackzHome from './homePage'; 
 
 
 
