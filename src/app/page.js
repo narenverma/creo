@@ -14,7 +14,7 @@ export default function Home() {
   useEffect(() => {
     // Ensure this runs only on the client side
     if (typeof window !== 'undefined') {
-      router.replace('/products/stackz');
+      router.push('/products/stackz');
     }
   }, [router]);
 

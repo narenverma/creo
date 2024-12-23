@@ -163,6 +163,8 @@ transform: translate(-50%,0);
 width: 100%;
 opacity: 0;
     pointer-events: none;
+    padding: 0 1rem;
+    
 & button{
     border-radius: 0.33575rem;
     padding: 0.55rem 0.64rem;
@@ -215,6 +217,13 @@ opacity: 0;
 
 @media screen and (max-width: 768px){
     flex-direction: column;
+    & button{
+        width:100% ;
+        font-size: 1rem;
+        &.icon-btn{
+            justify-content: center;
+        }
+    }
 }
 `;
 
@@ -373,6 +382,11 @@ export const FAQsModalWrap = styled.div`
     }
     & .accordion-body ul li:not(:last-child){
         margin-bottom: 2rem;
+    }
+    & .accordion-body ul{
+        & :is(h3, p){
+        font-size: 1.1rem;
+        }
     }
     & .btn-close{
         top: 0.5rem;
