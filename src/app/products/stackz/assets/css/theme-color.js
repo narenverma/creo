@@ -16,7 +16,10 @@ export const GlobalColorsStyle = createGlobalStyle`
   --theme-accent-light-blue: #F5F8FF; /* Accent light blue */
   --theme-base-white: #FAFAFA; /* Base soft white */
   --theme-white-smoke: #f7f7f7;
-     
+  --theme-selective-yellow: #fcbc00;
+
+ 
+
 }
 
 /* Background color classes */
