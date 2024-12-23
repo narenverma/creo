@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     compiler: {
-    styledComponents: true,
+    styledComponents: {
+      displayName: true,
+      // Enabled by default.
+      ssr: true,
+    }
   },
 };
 
