@@ -50,7 +50,9 @@ export default function HeaderMenu() {
            
           
             <ul hidden={isMenuOpen || !isMobile  ? false : true}>
-              <li><Link href="/">Pricing</Link></li>
+              <li class="info-elem">
+              <Link href="/">Pricing </Link>
+              </li>
               <li><Link href="/">Terms</Link></li>
               {!isMobile &&
               <li>
