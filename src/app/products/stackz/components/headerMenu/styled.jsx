@@ -67,6 +67,7 @@ ${'' /* background-color: var(--theme-soft-gray); */}
         color: var(--theme-black);
         font-weight: 400;
         letter-spacing: 0.3px;
+        top: 2px;
     }
 }
 
