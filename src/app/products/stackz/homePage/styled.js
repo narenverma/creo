@@ -64,7 +64,7 @@ grid-template-columns: repeat(5,minmax(5rem,1fr));
 grid-gap: 1px;
 margin-top:1px;
 
-& button{
+& :is(button, a){
     background-color:var(--theme-base-white);
     padding: 1.5rem 1.62rem;
     border: 0;
@@ -74,6 +74,8 @@ margin-top:1px;
     line-height: normal;
     color: var(--theme-black);
     outline: 1px solid var(--theme-soft-gray);
+    display: inline-block;
+    text-align: center;
     &:hover{
         background-color: var(--theme-black);
         color: var(--theme-white);
@@ -81,6 +83,10 @@ margin-top:1px;
     &:focus{
         outline:  1px solid var(--theme-soft-gray)!important;
     }
+}
+
+& a{
+    font-weight: 400;
 }
 
 @media screen and (max-width: 992px){
@@ -176,6 +182,11 @@ opacity: 0;
     color: var(--theme-white);
     border:0;
 
+    &:hover{
+    background-color: var(--theme-primary-blue);
+    color: var(--theme-white);
+    }
+
 &.icon-btn{
     border: 0.895px solid var(--theme-soft-gray);
     background-color: var(--theme-white);
@@ -212,8 +223,15 @@ opacity: 0;
         translate: -50% 0;
         opacity: 1;
     }
+    &:hover{
+    background-color: var(--theme-black);
+    color: var(--theme-white);
 }
 }
+
+}
+
+
 
 @media screen and (max-width: 768px){
     flex-direction: column;

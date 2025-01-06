@@ -45,6 +45,11 @@ margin-bottom: 0;
     font-size: 1.375rem;
     font-weight: 500;
     letter-spacing: -0.01375rem; 
+
+    &:hover{
+    background-color: var(--theme-black);
+    color: var(--theme-white);
+       }
 }
 & li.copyrights-col{
     padding: 2.5rem 1.62rem;
