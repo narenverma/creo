@@ -1,4 +1,4 @@
-import {styled} from "styled-components";
+import { styled } from "styled-components";
 
 
 export const MainMenuWrap = styled.div`
@@ -32,6 +32,7 @@ ${'' /* background-color: var(--theme-soft-gray); */}
         width: 100%;
         align-items: center;
         justify-content: center;
+        
     }
     & li:not(:nth-child(3)) :is(button, a){
         padding: 2rem 1.68rem;
@@ -43,6 +44,11 @@ ${'' /* background-color: var(--theme-soft-gray); */}
         
         /* text-transform: uppercase; */
         font-size: 1rem;
+
+        &:hover{
+    background-color: var(--theme-black);
+    color: var(--theme-white);
+       }
     }
     & li:nth-child(3) a{
         padding: 0.8rem 2.19rem;

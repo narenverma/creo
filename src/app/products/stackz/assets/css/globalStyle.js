@@ -366,6 +366,11 @@ export const CustomBtnWrap = styled.div`
     text-align:center;
 }
 
+& :is(button, a):hover{
+    background-color: var(--theme-black);
+    color: var(--theme-white);
+}
+
 @media screen and (max-width: 768px){
     justify-content: center;
 }

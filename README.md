@@ -41,3 +41,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 2. Add Heading on the Faqs Popup 
 3. Update meta tags
 4. Fix the CSS delay issue.
+
+# 06/01/2025 - Some Changes:
+1. Update the Link of the "I Want All"
+2. Add CTAs Hover Effect
+3. Add Header and Footer Hover Effect 

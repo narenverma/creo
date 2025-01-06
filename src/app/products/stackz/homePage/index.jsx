@@ -126,11 +126,9 @@ const [isMobile,setIsMobile] = React.useState(false);
 
                                 ))
                             }
-                            <DownloadButton
-                                fileUrl={`/library-images-download/svg-images/free/free-plan-files.zip`}
-                                fileName={"Stackz_Free_Plan_SVG_Files.zip"}
-                                btnName={"I want all 🤩"}
-                            ></DownloadButton>
+                            <Link
+                                href="https://www.figma.com/community/file/1456873520751418189/stackz-fintech-design-resources" target="_blank"
+                            >I want all 🤩</Link>
                         </TabsNavWrap>
                         : ""
                     }
