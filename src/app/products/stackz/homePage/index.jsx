@@ -5,9 +5,10 @@ import Image from 'next/image'
 import { CustomBtnWrap, Nohemi } from '../assets/css/globalStyle';
 import { faqsList, filterTabs, libraryItems } from '../components/utilities/apis';
 import Link from 'next/link';
-import { CopyButton } from '../copyFigma';
-import DownloadButton from '../downloadBtn';
+import { CopyButton } from '../../productUtilities/copyFigma';
+import DownloadButton from '../../productUtilities/downloadBtn';
 import { FAQsModalWrap } from './styled';
+import { checkReadyState } from '../components/utilities/functions';
 
 
 
@@ -17,6 +18,8 @@ export default function StackzHome() {
 const [isMobile,setIsMobile] = React.useState(false);
   
   useEffect(() => {
+
+    checkReadyState();
 
     if (window.innerWidth < 768) {
       setIsMobile(true);
@@ -136,7 +139,7 @@ const [isMobile,setIsMobile] = React.useState(false);
                             {
                                 filteredItems.map((item, index) => (
                                     <ItemCard key={index}>
-                                        <Image src={require(`../assets/images/library-items/png-images/${item.imageName}.png`)} alt={"Image " + item.id} ></Image>
+                                        <Image src={require(`../assets/images/library-items/png-images/${item.imageName}.png`)} alt={"Image " + item.id}   ></Image>
 
                                         <GetItemWrap>
                                             <CopyButton
