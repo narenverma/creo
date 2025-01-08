@@ -65,7 +65,7 @@ ${'' /* background-color: var(--theme-soft-gray); */}
         gap: 0.5rem;
     }
     & li.info-elem a:after{
-        content:"Soon👀";
+        content:"Soon 👀";
         position: relative;
         display: inline-block;
         font-size: 0.8rem;
