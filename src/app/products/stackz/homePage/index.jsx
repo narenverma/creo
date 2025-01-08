@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react'
-import { GetItemWrap, IconList, ItemCard, LibraryItemsTabsSection, MobileTabFilter, PillHead, PricingInfoSection, PricingInfoWrap, StackzHeroSection, StackzHeroWrap, TabButton, TabsContentWrap, TabsNavWrap } from './styled'
+import { FloatingCTAWrap, GetItemWrap, IconList, ItemCard, LibraryItemsTabsSection, MobileTabFilter, PillHead, PricingInfoSection, PricingInfoWrap, StackzHeroSection, StackzHeroWrap, TabButton, TabsContentWrap, TabsNavWrap } from './styled'
 import Image from 'next/image'
 import { CustomBtnWrap, Nohemi } from '../assets/css/globalStyle';
 import { faqsList, filterTabs, libraryItems } from '../components/utilities/apis';
@@ -172,10 +172,12 @@ const [isMobile,setIsMobile] = React.useState(false);
                                             Unlock Speed and Creativity with Pre-Built Figma Designs
                                         </h2>
                                         <CustomBtnWrap  >
-                                            <Link href="#" className="icon-cta">
+                                            <Link href="https://www.figma.com/design/VpTmQUmTaAgzHDhgWK1Edc/Stackz%3A-Fintech-Website-Template?node-id=518-6681&t=FbOh0mTr4Pb8DqzY-1" 
+                                            target='_blank'
+                                            className="icon-cta">
                                                 <Image src={require("../assets/images/global-images/figma-icon.svg").default} alt="Figma logo" ></Image>
-                                                Preview in figma</Link>
-                                            <Link href="#" className="cta">Buy now</Link>
+                                                Preview in Figma</Link>
+                                            <Link href="https://hybreed.gumroad.com/l/creoui-stackz-fintech-website-template" target="_blank" className="cta">Buy Now</Link>
                                         </CustomBtnWrap>
                                     </div>
                                     <div className="col-lg-6 text-end">
@@ -234,6 +236,18 @@ const [isMobile,setIsMobile] = React.useState(false);
                     </div>
                 </div>
                 </FAQsModalWrap>
+                <FloatingCTAWrap  >
+                <div className="container">
+
+                <div className=" theme-outline   position-relative p-4">
+                <CustomBtnWrap  className='justify-content-center'>
+                    <Link href="https://buymeacoffee.com/creoui" target='_blank' className="icon-cta">
+                    <Image src={require("../assets/images/global-images/coffee-icon.svg").default} alt="Coffee logo" ></Image>
+                    Support Us</Link>
+                </CustomBtnWrap>
+                </div>
+                </div>
+                </FloatingCTAWrap>
             </div>
 
         </>

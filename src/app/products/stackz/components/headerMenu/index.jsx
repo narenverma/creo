@@ -53,7 +53,10 @@ export default function HeaderMenu() {
               <li className="info-elem">
               <Link href="/">Pricing </Link>
               </li>
-              <li><Link href="/">Terms</Link></li>
+              <li><button
+                type='button'
+                data-bs-toggle="modal" data-bs-target="#faqsModal"
+              >FAQ</button></li>
               {!isMobile &&
               <li>
                 <Link href="/products/stackz">
@@ -61,11 +64,8 @@ export default function HeaderMenu() {
                 </Link>
               </li>
               }
-              <li><button
-                type='button'
-                data-bs-toggle="modal" data-bs-target="#faqsModal"
-              >FAQ</button></li>
-              <li><Link href="/">Figma Files</Link></li>
+              <li><Link href="/">Terms</Link></li>
+              <li><Link href="/">Figma Profiles</Link></li>
             </ul>
           </MenuItems>
         </div>

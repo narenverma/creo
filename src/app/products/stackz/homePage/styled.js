@@ -419,3 +419,34 @@ export const FAQsModalWrap = styled.div`
 
 `;
 
+export const FloatingCTAWrap = styled.div`
+ /* position: fixed;
+ left: 50%;
+ translate: -50% 0; 
+ bottom: 7.2rem;
+ width: calc(100% - 12.4rem ); 
+ z-index: 11;
+ padding: 0.5rem; */
+
+ & .theme-outline{
+    margin-top:1px;
+ }
+
+ 
+ & a.icon-cta{
+    font-size: .8rem;  
+    background-color: var(--theme-black);
+    color: var(--theme-white);
+    
+    
+    & img{
+        width: auto; 
+        filter: invert(1);
+    }
+    &:hover{
+        background-color: var(--theme-primary-blue);
+        border-color: var(--theme-primary-blue);
+    } 
+ }
+
+`;

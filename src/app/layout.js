@@ -6,6 +6,11 @@ export const metadata = {
   title: "Creo",
   description: "Created By Hybreed.co",
   robots: "noindex,nofollow",
+  icons: {
+            icon: "/stackz-favicon-icon.svg", // Path to favicon
+            shortcut: "/stackz-favicon-icon.svg", // Path to shortcut icon
+            apple: "/stackz-favicon-icon.svg", // Path to apple touch icon
+        },
 };
 
 export default function RootLayout({ children }) {
