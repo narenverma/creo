@@ -65,7 +65,7 @@ export default function HeaderMenu() {
               </li>
               }
               <li><Link href="/">Terms</Link></li>
-              <li><Link href="https://www.figma.com/@hybreed">Figma Profile</Link></li>
+              <li><Link href="https://www.figma.com/@hybreed" target="_blank">Figma Profile</Link></li>
             </ul>
           </MenuItems>
         </div>
