@@ -246,7 +246,7 @@ opacity: 0;
 `;
 
 export const ItemCard = styled.div` 
-/* padding: 3.37rem 3.92rem;  */
+padding: 3.37rem 3.92rem;
 outline: 1px solid var(--theme-soft-gray);
 width: 100%;
 aspect-ratio: 1/1;
