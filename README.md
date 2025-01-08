@@ -36,13 +36,28 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-# 19/12/2024 - Many Updates:
+# 19/12/2024 - Many Updates - Stackz:
 1. Update 63 cards with images and Figma code
 2. Add Heading on the Faqs Popup 
 3. Update meta tags
 4. Fix the CSS delay issue.
 
-# 06/01/2025 - Some Changes:
+# 06/01/2025 - 
+Some Changes - Stackz:
 1. Update the Link of the "I Want All"
 2. Add CTAs Hover Effect
 3. Add Header and Footer Hover Effect 
+
+new Product Edubits Setup -
+1. Setup Font
+2. Setup CSS
+3. Setup Folders
+4. Working on the some Setup issues
+
+
+# 07/01/2025 - Fix setup issues - Edubits:
+
+
+# 08/01/2025 - Some Changes - Stackz:
+1. Update 63 images
+2. Update Menu soon tag.

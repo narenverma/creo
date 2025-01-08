@@ -1,12 +1,12 @@
 
-import React from 'react'
+import React  from 'react'
 
 import { GlobalStyle, Nohemi } from './assets/css/globalStyle';
 
 import { GlobalColorsStyle } from './assets/css/theme-color';
 import HeaderMenu from './components/headerMenu';
 import FooterMenu from './components/footerMenu';
-import StackzHome from './homePage'; 
+import StackzHome from './homePage';  
 
 
 
@@ -42,13 +42,13 @@ export async function generateMetadata({ params, searchParams }) {
 }
 
 
-export default function Stackz() {
-
-
+export default function Stackz() { 
     return (
         <>
             <GlobalStyle />
             <GlobalColorsStyle />
+            {/* <div className="dom-wrap" > */}
+
             <header>
                 <HeaderMenu ></HeaderMenu>
             </header>
@@ -58,6 +58,7 @@ export default function Stackz() {
             <footer >
                 <FooterMenu></FooterMenu>
             </footer>
+            {/* </div> */}
         </>
     )
 }

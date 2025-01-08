@@ -60,10 +60,12 @@ ${'' /* background-color: var(--theme-soft-gray); */}
 
     }
     & li.info-elem a{ 
-        flex-direction: column; 
+        /* flex-direction: column;  */
+        align-items: center;
+        gap: 0.5rem;
     }
     & li.info-elem a:after{
-        content:"Announcing Soon!";
+        content:"Soon👀";
         position: relative;
         display: inline-block;
         font-size: 0.8rem;
@@ -73,7 +75,7 @@ ${'' /* background-color: var(--theme-soft-gray); */}
         color: var(--theme-black);
         font-weight: 400;
         letter-spacing: 0.3px;
-        top: 2px;
+        top: 0px;
     }
 }
 
