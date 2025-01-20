@@ -14,7 +14,7 @@ export async function generateMetadata({ params, searchParams }) {
     return {
         title: "Stackz: Premium Fintech Design Resources | CREO",
         description: "Explore Stackz by CREO – the ultimate resource for fintech design systems, icons, illustrations, and editable website templates. Optimize your fintech projects with Stackz.",
-        robots: "noindex,nofollow",
+        // robots: "noindex,nofollow",
         twitter: {
             card: "summary_large_image",
             title: "Stackz: Premium Fintech Design Resources | CREO",

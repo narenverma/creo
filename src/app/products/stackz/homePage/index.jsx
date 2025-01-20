@@ -9,15 +9,29 @@ import { CopyButton } from '../../productUtilities/copyFigma';
 import DownloadButton from '../../productUtilities/downloadBtn';
 import { FAQsModalWrap } from './styled';
 import { checkReadyState } from '../components/utilities/functions';
+import TagManager from 'react-gtm-module';
 
 
 
 
 export default function StackzHome() {
+    
 
 const [isMobile,setIsMobile] = React.useState(false);
   
   useEffect(() => {
+
+    
+
+    // const tagManagerArgs = {
+    //     gtmId: 'GTM-N699QL23',
+    //     dataLayer: {
+    //         userId: '001',
+    //         userProject: 'project'
+    //     }
+    // }
+
+    // TagManager.initialize(tagManagerArgs);
 
     checkReadyState();
 
