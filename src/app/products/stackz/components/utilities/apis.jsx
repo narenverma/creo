@@ -28,20 +28,20 @@ export const faqsList = [
     content:[
       {
         question:"Do I need a subscription to use CREO?",
-        answer: "Yes, CREO operates on a subscription model, giving you access to an extensive library of design resources.",
+        answer: "CREO is currently free, we will be starting the pricing soon!",
       }, 
-      {
-        question:"What subscription plans do you offer?",
-        answer: "We offer monthly, quarterly, and yearly plans to suit various needs. Discounts are available on long-term subscriptions.",
-      }, 
-      {
-        question:"Can I try CREO before subscribing?",
-        answer: "Yes, we offer a free trial with access to a limited selection of resources.",
-      }, 
-      {
-        question:"Are there any additional costs?",
-        answer: "No. All assets are included in the subscription fee, with no hidden charges.",
-      },  
+      // {
+      //   question:"What subscription plans do you offer?",
+      //   answer: "We offer monthly, quarterly, and yearly plans to suit various needs. Discounts are available on long-term subscriptions.",
+      // }, 
+      // {
+      //   question:"Can I try CREO before subscribing?",
+      //   answer: "Yes, we offer a free trial with access to a limited selection of resources.",
+      // }, 
+      // {
+      //   question:"Are there any additional costs?",
+      //   answer: "No. All assets are included in the subscription fee, with no hidden charges.",
+      // },  
     ]
   },
   {

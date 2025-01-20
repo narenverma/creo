@@ -61,3 +61,7 @@ new Product Edubits Setup -
 # 08/01/2025 - Some Changes - Stackz:
 1. Update 63 images
 2. Update Menu soon tag.
+
+# 20/01/2025 - Some Changes - Stackz:
+1. Add Space between tabs text and count
+2. Update the FAQs content
