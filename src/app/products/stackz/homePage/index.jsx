@@ -118,11 +118,11 @@ const [isMobile,setIsMobile] = React.useState(false);
                                     >{item.label}
                                         {
                                             item.id === "all" ?
-                                                "(" + libraryItems.length + ")"
+                                                " (" + libraryItems.length + ")"
                                                 :
 
                                                 libraryItems.filter((items) => items.itemCategory.includes(item.id)).length !== 0 ?
-                                                    "(" + libraryItems.filter((items) => items.itemCategory.includes(item.id)).length + ")" : ""
+                                                    " (" + libraryItems.filter((items) => items.itemCategory.includes(item.id)).length + ")" : ""
 
                                         }
                                     </TabButton>
