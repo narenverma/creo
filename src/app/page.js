@@ -12,10 +12,11 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    // Ensure this runs only on the client side
-    if (typeof window !== 'undefined') {
-      router.push('/products/stackz');
-    }
+ 
+  // Ensure this runs only on the client side
+  if (typeof window !== 'undefined') { 
+    router.push('/products/stackz');
+  }
   }, [router]);
 
   return <div>Redirecting...</div>; // Optionally show a message or spinner

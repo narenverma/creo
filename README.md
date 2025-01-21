@@ -65,3 +65,5 @@ new Product Edubits Setup -
 # 20/01/2025 - Some Changes - Stackz:
 1. Add Space between tabs text and count
 2. Update the FAQs content
+3. Setup GTM tag code setup
+4. Add the code in main page layout

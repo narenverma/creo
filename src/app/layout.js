@@ -1,6 +1,7 @@
  
 import "bootstrap/dist/css/bootstrap.min.css"; 
-import StyledComponentsRegistry from "./mainComponents/styledCompLoader";
+import StyledComponentsRegistry from "./mainComponents/styledCompLoader";  
+import { GTag, GTagEnd } from "./mainComponents/utilities/functions";
 
 export const metadata = {
   title: "Creo",
@@ -14,9 +15,13 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+ 
+
   return (
     <html lang="en"  >
       <body style={{opacity: 0, transition: "opacity 1000ms ease-in", }}>
+      <GTag></GTag>
+      <GTagEnd></GTagEnd>
       <StyledComponentsRegistry>
           {children}
       </StyledComponentsRegistry>
@@ -24,3 +29,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
