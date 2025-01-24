@@ -7,9 +7,9 @@ import { faqsList, filterTabs, libraryItems } from '../components/utilities/apis
 import Link from 'next/link';
 import { CopyButton } from '../../productUtilities/copyFigma';
 import DownloadButton from '../../productUtilities/downloadBtn';
-import { FAQsModalWrap } from './styled';
-import { checkReadyState } from '../components/utilities/functions';
-import TagManager from 'react-gtm-module';
+import { FAQsModalWrap } from './styled'; 
+import { checkReadyState } from '@/app/mainComponents/utilities/functions';
+// import TagManager from 'react-gtm-module';
 
 
 
