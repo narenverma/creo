@@ -68,7 +68,7 @@ new Product Edubits Setup -
 3. Setup GTM tag code setup
 4. Add the code in main page layout
 
-# 24/01/2025 - Some Changes - Edubits:
+# 24/01/2025 - Creating New Product Edubits  - Edubits:
 1. Create Header Menu UI
 2. Create Footer Menu UI
 3. Create Hero section UI
