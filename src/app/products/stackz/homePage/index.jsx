@@ -258,7 +258,7 @@ const [isMobile,setIsMobile] = React.useState(false);
                     <Link href="https://buymeacoffee.com/creoui" target='_blank' className="icon-cta">
                     <Image src={require("../assets/images/global-images/coffee-icon.svg").default} alt="Coffee logo" ></Image>
                     Support Us</Link>
-                    <Link href="https://www.producthunt.com/posts/stackz-by-creo?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stackz&#0045;by&#0045;creo" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=778192&theme=light&t=1737971963722" alt="Stackz&#0032;by&#0032;CREO - Design&#0032;assets&#0032;for&#0032;startup&#0032;owners&#0032;&#0038;&#0032;fast&#0045;paced&#0032;designers | Product Hunt" style={{width: "auto", height: "38px",}} width="auto" height="38" /></Link>
+                    <Link href="https://www.producthunt.com/posts/stackz-by-creo?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stackz&#0045;by&#0045;creo" target="_blank" style={{backgroundColor:" #0000!important",}}><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=778192&theme=light&t=1737971963722" alt="Stackz&#0032;by&#0032;CREO - Design&#0032;assets&#0032;for&#0032;startup&#0032;owners&#0032;&#0038;&#0032;fast&#0045;paced&#0032;designers | Product Hunt" style={{width: "auto", height: "2.66rem",}} width="auto" height="2.66rem" /></Link>
                 </CustomBtnWrap>
                 </div>
                 </div>
