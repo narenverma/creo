@@ -11,9 +11,7 @@ export const FooterWrap = styled.div`
     
     & .copyrights-col{
         padding: 2rem;
-        text-align: center;
-        outline: 1px solid var(--theme-soft-gray);
-        margin-top: 1px;
+        text-align: center; 
         p{
             margin-bottom: 0;
         }
@@ -27,32 +25,30 @@ margin-bottom: 0;
 list-style: none;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-gap: 1px;
-margin-top:1px;
+grid-gap: 1.38rem; 
 
 body & li{
 margin-bottom: 0;
 }
-& li{
-    outline: 1px solid var(--theme-soft-gray);
+& li{ 
     text-align: center;
 }
-& li:not(.copyrights-col) a{
-    padding: 2.5rem 1.62rem;
+& li:not(.copyrights-col) a, & li.copyrights-col{
+    padding: 2rem 1.63rem;
+    border-radius: 1.16688rem;
+    border: 1px solid var(--theme-light-yellow);
     display: inline-block;
     width: 100%;
     height: 100%; 
     font-size: 1.375rem;
     font-weight: 500;
     letter-spacing: -0.01375rem; 
-
-    &:hover{
+}
+& li:not(.copyrights-col) a:hover{
     background-color: var(--theme-black);
     color: var(--theme-white);
-       }
 }
-& li.copyrights-col{
-    padding: 2.5rem 1.62rem;
+& li.copyrights-col{ 
     /* min-width: 26.875rem; */
     width: 30vw;
     & p{

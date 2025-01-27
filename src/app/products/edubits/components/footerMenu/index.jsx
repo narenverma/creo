@@ -2,8 +2,8 @@
 
 import React, { useEffect } from 'react'
 import { FooterSection, FooterWrap, SocialCopyrightsWrap } from './styled'
-import Link from 'next/link';
-import { Nohemi } from '@/app/products/stackz/assets/css/globalStyle';
+import Link from 'next/link';  
+import { InterFont } from '../../assets/css/globalStyle';
 
 export default function FooterMenu() {
 
@@ -26,7 +26,7 @@ export default function FooterMenu() {
 
   return (
     <>
-        <FooterSection className={ Nohemi.variable}>
+        <FooterSection className={ InterFont.variable}>
             <div className="container">
                 <FooterWrap>
                     <SocialCopyrightsWrap>

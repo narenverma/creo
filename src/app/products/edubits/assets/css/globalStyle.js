@@ -125,7 +125,7 @@ box-sizing: border-box;
 font-size: 1.05rem;
 font-family: var(--Inter);
 font-weight: 400;
-background-color: var(--theme-white);
+background-color: var(--theme-cream);
 color: var(--theme-black);
 -moz-osx-font-smoothing: grayscale;
 overflow-x: hidden;
@@ -179,7 +179,8 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1{
     font-size: 3.5rem; 
     line-height: 114.286%;
-}
+    font-family: var(--AwesomeSerif);
+    }
 h2, .h2{
     font-size: 2.5rem; 
     line-height: 120%;

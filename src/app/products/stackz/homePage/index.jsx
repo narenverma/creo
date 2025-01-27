@@ -7,9 +7,9 @@ import { faqsList, filterTabs, libraryItems } from '../components/utilities/apis
 import Link from 'next/link';
 import { CopyButton } from '../../productUtilities/copyFigma';
 import DownloadButton from '../../productUtilities/downloadBtn';
-import { FAQsModalWrap } from './styled';
-import { checkReadyState } from '../components/utilities/functions';
-import TagManager from 'react-gtm-module';
+import { FAQsModalWrap } from './styled'; 
+// import { checkReadyState } from '@/app/mainComponents/utilities/functions';
+// import TagManager from 'react-gtm-module';
 
 
 
@@ -33,7 +33,7 @@ const [isMobile,setIsMobile] = React.useState(false);
 
     // TagManager.initialize(tagManagerArgs);
 
-    checkReadyState();
+    // checkReadyState();
 
     if (window.innerWidth < 768) {
       setIsMobile(true);
@@ -258,6 +258,7 @@ const [isMobile,setIsMobile] = React.useState(false);
                     <Link href="https://buymeacoffee.com/creoui" target='_blank' className="icon-cta">
                     <Image src={require("../assets/images/global-images/coffee-icon.svg").default} alt="Coffee logo" ></Image>
                     Support Us</Link>
+                    <Link href="https://www.producthunt.com/posts/stackz-by-creo?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stackz&#0045;by&#0045;creo" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=778192&theme=light&t=1737971963722" alt="Stackz&#0032;by&#0032;CREO - Design&#0032;assets&#0032;for&#0032;startup&#0032;owners&#0032;&#0038;&#0032;fast&#0045;paced&#0032;designers | Product Hunt" style={{width: "auto", height: "38px",}} width="auto" height="38" /></Link>
                 </CustomBtnWrap>
                 </div>
                 </div>
