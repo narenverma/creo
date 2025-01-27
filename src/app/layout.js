@@ -19,7 +19,8 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en"  >
-      <body style={{opacity: 0, transition: "opacity 1000ms ease-in", }}>
+      {/* <body style={{opacity: 0, transition: "opacity 1000ms ease-in", }}> */}
+      <body  >
       <GTag></GTag>
       <GTagEnd></GTagEnd>
       <StyledComponentsRegistry>
