@@ -11,8 +11,8 @@ export const GlobalColorsStyle = createGlobalStyle`
   --theme-neutral-gray: #AEAEAE; /* Neutral light gray */
   --theme-light-yellow: #F0E0A5;
   --theme-cream: #FEFBF0;
+  --theme-light-cream: #FEF7DB;
   --theme-dark-yellow: #D1AA1A;
-
 
 
  
@@ -35,7 +35,9 @@ export const GlobalColorsStyle = createGlobalStyle`
 .theme-bg-dark-yellow {
   background-color: var(--theme-dark-yellow);
 }
-
+.theme-bg-light-cream {
+  background-color: var(--theme-light-cream);
+}
 /* Text color classes */
  
 .theme-text-neutral-gray {
@@ -51,6 +53,9 @@ export const GlobalColorsStyle = createGlobalStyle`
 
 .theme-text-dark-yellow {
   color: var(--theme-dark-yellow);
+}
+.theme-text-light-cream {
+  color: var(--theme-light-cream);
 }
 
 `;

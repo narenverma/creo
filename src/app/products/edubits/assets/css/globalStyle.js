@@ -140,7 +140,7 @@ text-size-adjust: auto;
 
 ::selection {
 color: var(--white) ; 
-background-color:  var(--theme-primary-dark-gray);
+background-color:  var(--theme-black);
 -webkit-text-fill-color: var(--white)  ;
 }
 
@@ -149,7 +149,7 @@ background-color:  var(--theme-primary-dark-gray);
 
 * {
 scrollbar-width: thin;
-scrollbar-color: var(--theme-primary-dark-gray) var(--theme-secondary-gray)  ;
+scrollbar-color: var(--theme-black) var(--theme-secondary-gray)  ;
 }
 
 /* Chrome, Edge, and Safari */

@@ -72,3 +72,5 @@ new Product Edubits Setup -
 1. Create Header Menu UI
 2. Create Footer Menu UI
 3. Create Hero section UI
+
+# 28/01/2025 - Complete the page UI  - Edubits.
