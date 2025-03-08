@@ -74,3 +74,5 @@ new Product Edubits Setup -
 3. Create Hero section UI
 
 # 28/01/2025 - Complete the page UI  - Edubits.
+
+# 09/03/2025 - Update 33 icons with SVG and Figma code - Stackz.
