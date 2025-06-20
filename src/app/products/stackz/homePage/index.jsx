@@ -153,7 +153,7 @@ const [isMobile,setIsMobile] = React.useState(false);
                             {
                                 filteredItems.map((item, index) => (
                                     <ItemCard key={index}>
-                                        <Image src={require(`../assets/images/library-items/png-images/${item.imageName}.png`)} alt={"Image " + item.id}   ></Image>
+                                        <Image src={require(`../assets/images/library-items/png-images/${item.imageName}.png`)} alt={"Image " + index}   ></Image>
 
                                         <GetItemWrap>
                                             <CopyButton
