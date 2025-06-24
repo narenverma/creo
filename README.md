@@ -76,3 +76,9 @@ new Product Edubits Setup -
 # 28/01/2025 - Complete the page UI  - Edubits.
 
 # 09/03/2025 - Update 33 icons with SVG and Figma code - Stackz.
+
+# 20/06/2025 - Uploading the Icon API and png and svg images - Stackz.
+
+# 23/06/2025 - Add the Figma Clip board Images - Stackz.
+
+# 24/06/2025 - Fix the placement of the images - Stackz.
