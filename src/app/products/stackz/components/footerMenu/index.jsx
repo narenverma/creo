@@ -41,7 +41,7 @@ export default function FooterMenu() {
                     </SocialCopyrightsWrap>
                      
                     <div className="copyrights-col" hidden={isMobile ? false : true}>
-                    <p className='theme-text-neutral-gray'>© 2024 <Link href="https://weare.hybreed.co/" target="_blank" className='theme-text-neutral-gray text-decoration-underline'>Hybreed.co</Link></p>
+                    <p className='theme-text-neutral-gray'>© 2026 <Link href="https://weare.hybreed.co/" target="_blank" className='theme-text-neutral-gray text-decoration-underline'>Hybreed.co</Link></p>
                     </div>
                      
                 </FooterWrap>
